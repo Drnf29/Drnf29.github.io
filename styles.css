@@ -28,7 +28,7 @@ a {
   display: flex;
   margin-right: auto;
   margin-left: auto;
-  width: 100%;
+  width: 95%;
   height: 100%;
   align-items: center;
   justify-content: space-between;
@@ -60,5 +60,23 @@ a {
   margin-left: auto;
   margin-right: auto;
   color: var(--dark-grey);
+}
+
+.work {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--white);
+}
+
+.contact {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--white);
 }
 
