@@ -1,10 +1,21 @@
-.body {
+body {
   background-color: #000;
   color: #a0a7b3;
   font-size: 1rem;
   font-family: Saira Variablefont Wdth Wgth, sans-serif;
   line-height: 1.5;
 }
+
+a {
+  border-color: #000;
+}
+
+.navbar-link {
+  color: var(--white);
+  padding: .5rem 1rem;
+  transition: color .2s;
+}
+
 .navbar {
   display: flex;
   margin-right: auto;
