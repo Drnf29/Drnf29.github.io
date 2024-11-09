@@ -80,3 +80,41 @@ a {
   color: var(--white);
 }
 
+form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 2px solid var(--dark-grey-2);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus, textarea:focus {
+    border-color: var(--dark-grey);
+    outline: none;
+}
+
+button[type="submit"] {
+    width: 10%;
+    padding: 12px;
+    font-size: 1.1rem;
+    background-color: var(--black);
+    color: var(--white);
+    border: 2px solid var(--white);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the submit button */
+button[type="submit"]:hover {
+    border: 2px solid var(--dark-grey)
+}
+
