@@ -80,20 +80,25 @@ a {
   color: var(--white);
 }
 
-form {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.form-field {
+    position: relative;
 }
 
-input[type="text"], textarea {
-    width: 100%;
-    padding: 12px;
+.field-label {
+    margin-bottom: .5rem;
+    font-weight: 400;
+}
+
+.field-input {
+    height: auto;
+    min-height: 2.75rem;
+    border: 1px solid var(--dark-grey-2);
+    background-color: var(--black);
+    color: var(--dark-grey);
+    margin-bottom: 0;
+    padding: .5rem .75rem;
     font-size: 1rem;
-    border: 2px solid var(--dark-grey-2);
-    border-radius: 4px;
-    margin-bottom: 20px;
-    transition: border-color 0.3s ease-in-out;
+    line-height: 1.6;
 }
 
 input[type="text"]:focus, textarea:focus {
@@ -113,7 +118,6 @@ button[type="submit"] {
     transition: background-color 0.3s ease;
 }
 
-/* Hover effect for the submit button */
 button[type="submit"]:hover {
     border: 2px solid var(--dark-grey)
 }
