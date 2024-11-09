@@ -80,6 +80,15 @@ a {
   color: var(--white);
 }
 
+.contact-form {
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr;
+    grid-auto-columns: 1fr;
+    display: grid;
+}
+
 .form-field {
     position: relative;
 }
